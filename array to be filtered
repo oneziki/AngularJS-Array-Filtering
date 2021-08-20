@@ -1,0 +1,18 @@
+var clickatell = angular.module("clickatell", []);
+
+clickatell.controller("testController", function($scope) {
+  $scope.list = [
+    { name: "1" },
+    { name: "10" },
+    { name: "100" },
+    { name: "1000" },
+    { name: "1" },
+    { name: "100000" },
+    { name: "100000" },
+    { name: "1000000" },
+    { name: "10000000" },
+    { name: "1000000000" },
+    { name: "10000000000" },
+    { name: "100" }
+  ];
+});

@@ -1,0 +1,13 @@
+<html ng-app="clickatell">
+  <head>
+    <title>AngularJS Removing Duplicates from ng-repeat</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+  </head>
+  <body ng-controller="testController">
+    <ul>
+      <li ng-repeat="item in list">{{item.name}}</li>
+    </ul>
+
+    <script src="script.js"></script>
+  </body>
+</html>
